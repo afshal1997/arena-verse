@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.HomeMainBanner,
+.HomeSection02
+{
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative !important;
+}
+
+.HomeMainBanner{
+    background: url('../../../Assets/Home/homeMainBanner.jpg');
+    background-attachment: fixed !important;
+    padding: 30px 10px !important;
+    height: 100vh;
+}
+
+.HomeSection02{
+    background: url('../../../Assets/Home/homeSection02.jpg');
+    padding: 50px 10px !important;
+    height: 100%;
+}
+
+.Introduction h2,
+.mainBannerContent h1,
+.mainBannerContent h4 {
+    text-transform: uppercase;
+    font-family: 'PlanetGamers';
+}
+
+.Introduction h2{
+    font-size: 2.2rem;
+}
+
+.mainBannerContent h1{
+    margin-top: 30px;
+    font-size: 4.5rem;
+    margin-bottom: 0;
+    line-height: 0.9;
+}
+
+.socialMediaIcons a {
+    transition: 1s;
+    font-size: 2rem;
+    margin: auto 10px;
+}
+
+.socialMediaIcons a:hover{
+    transition: 1s;
+    opacity: 0.8;
+}
+
+.playIcon {
+    width: 100%;
+    max-width: 90px;
+    margin: 30px auto;
+    display: block;
+    transition: 1s;
+}
+
+.playIcon:hover {
+    transition: 1s;
+    transform: scale(1.11);
+    filter: drop-shadow(2px 4px 6px black);
+    cursor: pointer;
+}
+
+.playButton {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto 0;
+    display: block;
+    transition: 1s;
+    animation: float 6s ease-in-out infinite;
+}
+
+.playButton:hover{
+    transition: 1s;
+    opacity: 0.7;
+    filter: drop-shadow(2px 4px 6px black);
+    cursor: pointer;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.Introduction{
+    background: url('../../../Assets/Home/section02Img01.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 80px 60px;
+}
+
+.section02Img02 {
+    width: 100%;
+    max-width: 500px;
+    margin-top: -70px;
+}

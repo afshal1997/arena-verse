@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) and (min-width: 300px){
+    .mainBannerContent h1{
+        font-size: 2.5rem;
+    }
+    .Introduction{
+        background-size: cover;
+        padding: 40px 20px;
+    }
+    .Introduction h2 {
+        font-size: 1.7rem;
+    }
+    .HomeMainBanner,
+    .HomeSection02{
+        background-attachment: scroll !important;
+        height: 100% !important;
+    }
+}

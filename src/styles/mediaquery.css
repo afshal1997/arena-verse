@@ -14,4 +14,18 @@
     .slick-slide{
         text-align: center;
     }
+    .homeSection08,
+    .homeSection07,
+    .HomeMainBanner,
+    .HomeSection02,
+    .section03,
+    .section04,
+    .section05,
+    .section-06,
+    .our-team,
+    .road-map {
+        background-attachment: scroll !important;
+        background-position: center bottom;
+    }
+
 }

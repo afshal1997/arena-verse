@@ -1,13 +1,14 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
+import { Flip } from 'react-reveal'
 import videoImg from '../../../Assets/Home/section06.png'
 const Section06 = () => {
   return (
     <div className="section-06 py-5">
       <Container>
         <div className="text-center text-light">
-          <h3 className="our-family">Gameplay</h3>
-          <p>Soccer, Basketball, Football, Tennis, and Boxing. </p>
+          <h3 className="our-family"><Flip right cascade>Gameplay</Flip></h3>
+          <p><Flip right cascade>Soccer, Basketball, Football, Tennis, and Boxing. </Flip></p>
         </div>
         <Row>
           <div className="col-lg-8 m-auto my-4">

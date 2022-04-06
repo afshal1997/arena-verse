@@ -6,6 +6,7 @@ import { Col, Container } from 'react-bootstrap'
 import mainLogo from '../../../Assets/Logos/mainLogo.png'
 import playIcon from '../../../Assets/ButtonIcons/playIcon.png'
 import playButton from '../../../Assets/ButtonIcons/playNowButton.png'
+import Zoom from 'react-reveal/Zoom';
 
 const MainBanner = () => {
     return (
@@ -16,8 +17,8 @@ const MainBanner = () => {
                 </Col>
                 <Col lg={6} className='m-auto text-center'>
                     <div className="mainBannerContent text-dark">
-                        <h1>ArenaVerse</h1>
-                        <h4>an online, open world PVP</h4>
+                        <h1><Zoom left cascade>ArenaVerse</Zoom></h1>
+                        <h4><Zoom right cascade>an online, open world PVP </Zoom></h4>
                         <div className="socialMediaIcons">
                             <a href="#" className='text-warning'>
                                 <FontAwesomeIcon icon={faTwitter} />

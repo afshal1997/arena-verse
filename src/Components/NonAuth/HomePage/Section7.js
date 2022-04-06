@@ -5,14 +5,17 @@ import tournamentsImg02 from '../../../Assets/Home/cartoon1.png'
 import tournamentsImg01Bg from '../../../Assets/Home/b1.png'
 import tournamentsImg02Bg from '../../../Assets/Home/b2.png'
 import vsImg from '../../../Assets/Home/vsImg.png'
+import { Flip } from 'react-reveal'
 
 const Section7 = () => {
   return (
     <div className='homeSection07'>
       <Container>
         <Col lg={6} className="m-auto text-center text-light">
-          <h3 className="our-family">Tournaments</h3>
-          <p>There will be daily and weekly tournaments with all sorts of prizes that you can compete in as a solo or with your team! </p>
+          <h3 className="our-family"><Flip right cascade>Tournaments</Flip></h3>
+          <p>
+            <Flip right cascade>There will be daily and weekly tournaments with all sorts of prizes that you can compete in as a solo or with your team! </Flip>
+          </p>
         </Col>
         <Row>
           <Col lg={4} className='m-auto'>

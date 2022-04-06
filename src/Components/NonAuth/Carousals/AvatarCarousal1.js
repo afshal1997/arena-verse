@@ -55,24 +55,24 @@ const AvatarCarousal = () => {
 
          <Row>
             <Slider {...settings}>
-               <Col lg="3">
+               <Col lg="3" className="col-3">
                   <img className="w-100" src={Avatar1} alt="" />
                   <h4 className="text-center mt-3 shadow-text">BEARS</h4>
                </Col>
-               <Col lg="3">
+               <Col lg="3" className="col-3">
                   <img className="w-100" src={Avatar2} alt="" />
                   <h4 className="text-center mt-3 shadow-text">CATS</h4>
                </Col>
 
-               <Col lg="3">
+               <Col lg="3" className="col-3">
                   <img className="w-100" src={Avatar3} alt="" />
                   <h4 className="text-center mt-3 shadow-text">FOXES</h4>
                </Col>
-               <Col lg="3">
+               <Col lg="3" className="col-3">
                   <img className="w-100" src={Avatar4} alt="" />
                   <h4 className="text-center mt-3 shadow-text">CHICKENS</h4>
                </Col>
-               <Col lg="3">
+               <Col lg="3" className="col-3">
                   <img className="w-100" src={Avatar1} alt="" />
                   <h4 className="text-center mt-3 shadow-text">BEARS</h4>
 

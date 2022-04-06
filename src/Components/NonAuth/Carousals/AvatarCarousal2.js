@@ -55,7 +55,7 @@ const AvatarCarousa2 = () => {
       <div className='ntf-icons'>
          <Row>
             <Slider {...settings}>
-               <Col lg="3">
+               <Col lg="3" className="col-3">
                   <img className="w-100" src={Avatar1} alt="" />
                   <h6 className="mt-2 fw-light">Type : Bears</h6>
                   <h6 className="mt-2 fw-light">Rarity:125</h6>
@@ -69,7 +69,7 @@ const AvatarCarousa2 = () => {
                         </h5></Col>
                   </Row>
                </Col>
-               <Col lg="3">
+               <Col lg="3" className="col-3">
                   <img className="w-100" src={Avatar2} alt="" />
                   <h6 className="mt-2 fw-light">Type : Cats</h6>
                   <h6 className="mt-2 fw-light">Rarity:213</h6>
@@ -84,7 +84,7 @@ const AvatarCarousa2 = () => {
                   </Row>
                </Col>
 
-               <Col lg="3">
+               <Col lg="3" className="col-3">
                   <img className="w-100" src={Avatar3} alt="" />
                   <h6 className="mt-2 fw-light">Type : Foxes</h6>
                   <h6 className="mt-2 fw-light">Rarity:347</h6>
@@ -97,7 +97,7 @@ const AvatarCarousa2 = () => {
                            .67
                         </h5></Col>
                   </Row>               </Col>
-               <Col lg="3">
+               <Col lg="3" className="col-3">
                   <img className="w-100" src={Avatar4} alt="" />
                   <h6 className="mt-2 fw-light">Type : Humans</h6>
                   <h6 className="mt-2 fw-light">Rarity:589</h6>
@@ -112,7 +112,7 @@ const AvatarCarousa2 = () => {
                   </Row>
                </Col>
                
-               <Col lg="3">
+               <Col lg="3" className="col-3">
                   <img className="w-100" src={Avatar1} alt="" />
                   <h6 className="mt-2 fw-light">Type : Humans</h6>
                   <h6 className="mt-2 fw-light">Rarity:589</h6>

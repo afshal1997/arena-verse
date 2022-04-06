@@ -8,6 +8,10 @@ body {
    scroll-behavior: smooth;
 }
 
+.navbar-light .navbar-toggler-icon{
+   filter: invert(1);
+}
+
 .homeSection08,
 .homeSection07,
 .HomeMainBanner,
@@ -62,6 +66,7 @@ body {
 
 .footer-links ul {
    display: inline-flex;
+   padding-left: 0;
 }
 
 .footer-links ul li {

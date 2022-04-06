@@ -56,7 +56,7 @@ const AvatarCarousa2 = () => {
          <Row>
             <Slider {...settings}>
                <Col lg="3" className="col-3">
-                  <img className="w-100" src={Avatar1} alt="" />
+                  <img className="w-100" src={Avatar1} alt='Avatar1' />
                   <h6 className="mt-2 fw-light">Type : Bears</h6>
                   <h6 className="mt-2 fw-light">Rarity:125</h6>
                   <Row className="mx-auto">
@@ -66,18 +66,19 @@ const AvatarCarousa2 = () => {
                      <Col className='col-11 col-lg-11'>
                         <h5 className="fw-bold mt-2 fw-light">
                            .5
-                        </h5></Col>
+                        </h5>
+                        </Col>
                   </Row>
                </Col>
                <Col lg="3" className="col-3">
-                  <img className="w-100" src={Avatar2} alt="" />
+                  <img className="w-100" src={Avatar2} alt="Avatar2" />
                   <h6 className="mt-2 fw-light">Type : Cats</h6>
                   <h6 className="mt-2 fw-light">Rarity:213</h6>
                   <Row className="mx-auto">
-                     <Col lg="1" className='col-1 p-0'>
+                     <Col lg="1" className='p-0'>
                         <img src={NftIcon} className="w-100 nft-symbol" alt="" />
                      </Col>
-                     <Col className='col-11 col-lg-11'>
+                     <Col className='col-lg-11'>
                         <h5 className="fw-bold mt-2 fw-light">
                            .53
                         </h5></Col>
@@ -85,14 +86,14 @@ const AvatarCarousa2 = () => {
                </Col>
 
                <Col lg="3" className="col-3">
-                  <img className="w-100" src={Avatar3} alt="" />
+                  <img className="w-100" src={Avatar3} alt="Avatar3" />
                   <h6 className="mt-2 fw-light">Type : Foxes</h6>
                   <h6 className="mt-2 fw-light">Rarity:347</h6>
                   <Row className="mx-auto">
-                     <Col lg="1" className='col-1 p-0'>
+                     <Col lg="1" className='p-0'>
                         <img src={NftIcon} className="w-100 nft-symbol" alt="" />
                      </Col>
-                     <Col className='col-11 col-lg-11'>
+                     <Col className='col-lg-11'>
                         <h5 className="fw-bold mt-2 fw-light">
                            .67
                         </h5></Col>
@@ -102,10 +103,10 @@ const AvatarCarousa2 = () => {
                   <h6 className="mt-2 fw-light">Type : Humans</h6>
                   <h6 className="mt-2 fw-light">Rarity:589</h6>
                   <Row className="mx-auto">
-                     <Col lg="1" className='col-1 p-0'>
+                     <Col lg="1" className='p-0'>
                         <img src={NftIcon} className="w-100 nft-symbol" alt="" />
                      </Col>
-                     <Col className='col-11 col-lg-11'>
+                     <Col className='col-lg-11'>
                         <h5 className="fw-bold mt-2 fw-light">
                            .54
                         </h5></Col>

@@ -1,0 +1,17 @@
+@media screen and (max-width: 991px) {
+    .our-team .col-lg-2 {
+        margin-bottom: 20px;
+    }
+    .our-team img {
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+    .slick-slide img {
+        display: block;
+        max-width: 200px;
+        margin: auto;
+    }
+    .slick-slide{
+        text-align: center;
+    }
+}

@@ -1,13 +1,20 @@
 import { Link } from '@reach/router'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import './Header.css'
 
 const Header = () => {
+  const [bgColor, setBgColor] = useState("transparent")
+  const { innerWidth: width } = window;
+  useEffect(() => {
+    if (width < 992) {
+      setBgColor("danger")
+    }
+  }, [window])
+
   return (
-    <Navbar bg="transparent" expand="lg" fixed="top">
+    <Navbar bg={bgColor} expand="lg" fixed="top">
       <Container>
-        {/* <Navbar.Brand as={Link} to="/">React-Bootstrap</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">

@@ -166,8 +166,18 @@
     background: url(../../../Assets/Home/transparent_bg.png) no-repeat center;
     background-size:cover;
     z-index:-1;
-    left:-80px;
+    left:-70px;
     top:0;
     bottom:0;
     margin:auto;
+    padding: 200px 0 !important;
+}
+.second-section-sc h2 {
+    font-size: 58px;
+    text-transform: uppercase;
+}
+.our-team{
+    background-image: url('../../../Assets/Home/section007.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

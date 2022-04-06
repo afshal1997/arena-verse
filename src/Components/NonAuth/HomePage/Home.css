@@ -203,6 +203,12 @@
     max-width: 650px;
 }
 
+.features h2{
+    text-transform: uppercase;
+    font-family: 'PlanetGamers';
+    font-size: 2.2rem;
+}
+
 
 @keyframes float {
 	0% {

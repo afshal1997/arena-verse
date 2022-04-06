@@ -10,6 +10,7 @@ import Section06 from '../../Components/NonAuth/HomePage/Section06'
 import Section7 from '../../Components/NonAuth/HomePage/Section7'
 import OurTeam from '../../Components/NonAuth/HomePage/OurTeam'
 import HomeSection08 from '../../Components/NonAuth/HomePage/HomeSection08'
+import RoadMap from '../../Components/NonAuth/HomePage/RoadMap'
 
 const Home = () => {
   return (
@@ -21,7 +22,8 @@ const Home = () => {
       <Section5 />
       <Section06 />
       <Section7 />
-      <HomeSection08/>
+      <HomeSection08 />
+      <RoadMap />
       <OurTeam />
     </div>
   )

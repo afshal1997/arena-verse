@@ -4,16 +4,24 @@ import { Container, Nav, Navbar } from 'react-bootstrap'
 import './Header.css'
 
 const Header = () => {
-  const [bgColor, setBgColor] = useState("transparent")
+  const [colorChange, setColorChange] = useState(false);
   const { innerWidth: width } = window;
-  useEffect(() => {
-    if (width < 992) {
-      setBgColor("danger")
+
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 80 && width >= 991) {
+      setColorChange(true);
     }
-  }, [window])
+    else {
+      setColorChange(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener('scroll', changeNavbarColor);
+  }, [width])
+
 
   return (
-    <Navbar bg={bgColor} expand="lg" fixed="top">
+    <Navbar expand="lg" fixed="top" className={colorChange ? 'bg-primary nav-transition' : 'bg-transparent nav-transition'}>
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

@@ -36,7 +36,7 @@ const AvatarCarousa2 = () => {
                slidesToShow: 2,
                slidesToScroll: 2,
                initialSlide: 2,
-               
+
                arrows: false,
             }
          },
@@ -45,7 +45,7 @@ const AvatarCarousa2 = () => {
             settings: {
                slidesToShow: 1,
                slidesToScroll: 1,
-               
+
                arrows: false,
             }
          }
@@ -67,7 +67,7 @@ const AvatarCarousa2 = () => {
                         <h5 className="fw-bold mt-2 fw-light">
                            .5
                         </h5>
-                        </Col>
+                     </Col>
                   </Row>
                </Col>
                <Col lg="3" className="col-3">
@@ -78,7 +78,7 @@ const AvatarCarousa2 = () => {
                      <Col lg="1" className='p-0'>
                         <img src={NftIcon} className="w-100 nft-symbol" alt="" />
                      </Col>
-                     <Col className='col-lg-11'>
+                     <Col lg={11}>
                         <h5 className="fw-bold mt-2 fw-light">
                            .53
                         </h5></Col>
@@ -112,22 +112,22 @@ const AvatarCarousa2 = () => {
                         </h5></Col>
                   </Row>
                </Col>
-               
+
                <Col lg="3" className="col-3">
                   <img className="w-100" src={Avatar1} alt="" />
                   <h6 className="mt-2 fw-light">Type : Humans</h6>
                   <h6 className="mt-2 fw-light">Rarity:589</h6>
                   <Row className="mx-auto">
-                     <Col lg="1" className='col-1 p-0'>
+                     <Col lg="1" className='p-0'>
                         <img src={NftIcon} className="w-100 nft-symbol" alt="" />
                      </Col>
-                     <Col className='col-11 col-lg-11'>
+                     <Col lg={11} className=''>
                         <h5 className="fw-bold mt-2 fw-light">
                            .54
                         </h5></Col>
                   </Row>
                </Col>
-               
+
             </Slider>
          </Row>
       </div >

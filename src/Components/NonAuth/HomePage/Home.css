@@ -175,6 +175,35 @@
     list-style-image: url('../../../Assets/Home/check-solid.svg');
 }
 
+.card-bg-transparent {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.card-bg-transparent p {
+    font-size: 12px;
+}
+
+.nav-transition {
+    transition: 1s;
+}
+
+.line-image {
+    position: absolute;
+    width: 100%;
+    max-width: 320px !important;
+    object-fit: contain;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 99;
+    display: block;
+    height: 100%;
+    max-height: 660px;
+    top: 0;
+
+}
+
 .tournamentsImg01,
 .tournamentsImg02 {
     width: 100%;

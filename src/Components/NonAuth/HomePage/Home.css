@@ -181,3 +181,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.our-team h2{
+    font-family:'PlanetGamers'
+
+}
+.our-team h6{
+    
+}
+.our-team p{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}

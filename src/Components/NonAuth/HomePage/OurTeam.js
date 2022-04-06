@@ -12,24 +12,54 @@ const OurTeam = () => {
    return (
       <div className='our-team py-5'>
          <Container>
-            <div className="text-center text-light">
+            <div className="text-center text-light my-4">
                <h2>Our Team</h2>
-               <p>Collect and trade Avatars to build the ultimate sports team!</p>
+               <div>Collect and trade Avatars to build the ultimate sports team!</div>
             </div>
             <Row className="text-center">
                <Col lg="1"></Col>
-               <Col lg="2"><img src={Avatar1} alt="" className='w-100' /></Col>
-               <Col lg="2"><img src={Avatar2} alt="" className='w-100' /></Col>
-               <Col lg="2"><img src={Avatar3} alt="" className='w-100' /></Col>
-               <Col lg="2"><img src={Avatar4} alt="" className='w-100' /></Col>
-               <Col lg="2"><img src={Avatar5} alt="" className='w-100' /></Col>
+               <Col lg="2" className="text-center text-light">
+                  <img src={Avatar1} alt="" className='w-100' />
+                  <h6>Joseph Carreon </h6>
+                  <p>(President, Co-Founder)</p>
+               </Col>
+               <Col lg="2" className="text-center text-light">
+                  <img src={Avatar2} alt="" className='w-100' />
+                  <h6>Vu Pham</h6>
+                  <p>(Chief Financial Officer, Co-Founder)</p>
+               </Col>
+               <Col lg="2" className="text-center text-light">
+                  <img src={Avatar3} alt="" className='w-100' />
+                  <h6>Magnus Stavsholt</h6>
+                  <p>(Chief Marketing Officer) </p>
+               </Col>
+               <Col lg="2" className="text-center text-light">
+                  <img src={Avatar4} alt="" className='w-100' />
+                  <h6>Daniel Bjoerk</h6>
+                  <p>(Marketing Strategist)</p>
+               </Col>
+               <Col lg="2" className="text-center text-light">
+                  <img src={Avatar5} alt="" className='w-100' />
+                  <h6>James Ochieng</h6>
+                  <p>(Blockchain Engineer) </p>
+               </Col>
                <Col lg="1"></Col>
             </Row>
-            <Row>
+            <Row className="my-5">
                <Col lg="3"></Col>
-               <Col lg="2" className='m-auto'><img src={Avatar6} alt="" className='w-100' /></Col>
-               <Col lg="2" className='m-auto'><img src={Avatar7} alt="" className='w-100' /></Col>
-               <Col lg="2" className='m-auto'><img src={Avatar8} alt="" className='w-100' /></Col>
+               <Col lg="2" className="m-auto text-center text-light">
+                  <img src={Avatar6} alt="" className='w-100' />
+                  <h6>James Ochieng1</h6>
+                  <p>(Blockchain Engineer) </p>
+               </Col>
+               <Col lg="2" className='m-auto text-center text-light'><img src={Avatar7} alt="" className='w-100' />
+                  <h6>James Ochieng</h6>
+                  <p>(Blockchain Engineer) </p>
+               </Col>
+               <Col lg="2" className='m-auto text-center text-light'><img src={Avatar8} alt="" className='w-100' />
+                  <h6>James Ochieng</h6>
+                  <p>(Blockchain Engineer) </p>
+               </Col>
                <Col lg="3"></Col>
             </Row>
          </Container>

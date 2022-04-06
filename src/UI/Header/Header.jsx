@@ -27,10 +27,10 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
             <Nav.Link as={Link} to="/">Play</Nav.Link>
-            <Nav.Link as={Link} to="/market-place">Marketplace</Nav.Link>
-            <Nav.Link as={Link} to="/white-paper">Whitepaper</Nav.Link>
-            <Nav.Link as={Link} to="/about">Tokenomics</Nav.Link>
-            <Nav.Link as={Link} to="/about">More</Nav.Link>
+            <Nav.Link as={Link} to="/">Marketplace</Nav.Link>
+            <Nav.Link as={Link} to="/">Whitepaper</Nav.Link>
+            <Nav.Link as={Link} to="/">Tokenomics</Nav.Link>
+            <Nav.Link as={Link} to="/">More</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

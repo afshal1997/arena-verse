@@ -8,12 +8,16 @@ import Avatar5 from '../../../Assets/Home/our-team/avatar5.png'
 import Avatar6 from '../../../Assets/Home/our-team/avatar6.png'
 import Avatar7 from '../../../Assets/Home/our-team/avatar7.png'
 import Avatar8 from '../../../Assets/Home/our-team/avatar8.png'
+import Pulse from 'react-reveal/Pulse';
+
 const OurTeam = () => {
    return (
       <div className='our-team py-5'>
          <Container>
             <div className="text-center text-light my-4 mb-5">
-               <h2>Our Team</h2>
+               <Pulse>
+                  <h2>Our Team</h2>
+               </Pulse>
                <div>Collect and trade Avatars to build the ultimate sports team!</div>
             </div>
             <Row className="text-center">

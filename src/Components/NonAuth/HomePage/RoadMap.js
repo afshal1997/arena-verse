@@ -1,12 +1,14 @@
 import React from 'react'
 import { Col, Card, Container, Row } from 'react-bootstrap';
 import Line from '../../../Assets/Home/line.png'
+import Flash from 'react-reveal/Flash';
+
 const RoadMap = () => {
    return (
       <div className="road-map">
          <Container>
             <Col lg={8} className="m-auto">
-               <h2 className="road-map__heading our-family text-center text-light">Release Roadmap</h2>
+               <Flash><h2 className="road-map__heading our-family text-center text-light">Release Roadmap</h2></Flash>
                <p className="text-center text-light">
                   Our roadmap is subject to change based on a variety of influential factors, be sure to check our Telegram and Twitter regularly to stay up to date.
                </p>

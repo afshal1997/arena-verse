@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    scroll-behavior: smooth;
+}
+
+.homeSection08,
+.homeSection07,
+.HomeMainBanner,
+.HomeSection02,
+.section03,
+.section04,
+.section05,
+.section-06,
+.our-team{
+    background-attachment: fixed !important;
+}
+
+.homeSection08,
+.homeSection07,
+.HomeMainBanner,
+.HomeSection02{
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative !important;
+}
+
+.TokenomicsContent h4,
+.tournamentsImgsContent h4,
+.our-family,
+.our-team h2,
+.Introduction h2,
+.mainBannerContent h1,
+.mainBannerContent h4,
+.second-section-sc h2,
+.section03 h3, 
+.section04 h3,
+.section05 h3 {
+    text-transform: uppercase;
+    font-family: 'PlanetGamers';
+}
+
+.section03 h3, 
+.section04 h3,
+.section05 h3,
+.our-team h2,
+.our-family {
+    font-size: 3rem;
+}

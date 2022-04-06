@@ -12,6 +12,7 @@
 }
 
 $primary: #350957;
+$secondary: #55f1ff;
 $danger: #be3154;
 $dark: #060f2e;
 $warning: #8d3d24;
@@ -22,6 +23,7 @@ $theme-colors: (
   "dark": $dark,
   "warning": $warning,
   "light": $light,
+  "secondary": $secondary,
 );
 
 

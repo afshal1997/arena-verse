@@ -1,17 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.HomeMainBanner,
-.HomeSection02
-{
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    position: relative !important;
-}
-
 .HomeMainBanner{
     background: url('../../../Assets/Home/homeMainBanner.jpg');
     background-attachment: fixed !important;
@@ -23,13 +9,6 @@
     background: url('../../../Assets/Home/homeSection02.jpg');
     padding: 50px 10px !important;
     height: 100%;
-}
-
-.Introduction h2,
-.mainBannerContent h1,
-.mainBannerContent h4 {
-    text-transform: uppercase;
-    font-family: 'PlanetGamers';
 }
 
 .Introduction h2{
@@ -75,7 +54,7 @@
     margin: 50px auto 0;
     display: block;
     transition: 1s;
-    animation: float 6s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
 }
 
 .playButton:hover{
@@ -83,18 +62,6 @@
     opacity: 0.7;
     filter: drop-shadow(2px 4px 6px black);
     cursor: pointer;
-}
-
-@keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-10px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
 }
 
 .Introduction{
@@ -112,20 +79,18 @@
 }
 .section03{
     background-image: url('../../../Assets/Home/home-section-03.png');
+    background-position: center bottom;
+    padding: 90px 10px !important;
     height:100%;
 }
 .section04{
     background-image: url('../../../Assets/Home/home-section-04.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center center;
+    background-position: center bottom;
+    padding: 90px 10px !important;
 }
 
-.section03 h3,
-.section04 h3
-{
-    font-family:'PlanetGamers'
-} 
 .shadow-text{
     background:url('../../../Assets/carousal-avatars/shadow-bg.png');
     background-size: cover;
@@ -144,33 +109,31 @@
     background-image: url('../../../Assets/Home/home-section-05.png');
     height: 100%;
 }
-.second-section-sc{
+.second-section-sc {
     position: relative;
+    height: 100%;
+    background-image: linear-gradient(45deg, #0000008c, transparent);
+    background-size: 100% 100%;
+    left: -80px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 80px 30px !important;
+    padding-left: 100px !important;
+    z-index: -1;
+}
+
+.SingleCarousalBg {
+    width: 100%;
+    z-index: 1;
 }
 .section-06{
     background-image: url('../../../Assets/Home/section06-bg.png');
     height: 100%;
 }
-.our-family{
-    font-family:'PlanetGamers'
-}
 .nft-symbol{
     width: 20px !important;
     margin-left: 10px;
-}
-.second-section-sc:before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: url(../../../Assets/Home/transparent_bg.png) no-repeat center;
-    background-size:cover;
-    z-index:-1;
-    left:-70px;
-    top:0;
-    bottom:0;
-    margin:auto;
-    padding: 200px 0 !important;
 }
 .second-section-sc h2 {
     font-size: 58px;
@@ -181,15 +144,74 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.our-team h2{
-    font-family:'PlanetGamers'
-
-}
-.our-team h6{
-    
-}
 .our-team p{
     font-size: 12px;
     margin: 0;
     padding: 0;
+}
+
+.homeSection07{
+    background: url('../../../Assets//Home/homeSection07.jpg');
+    padding: 100px 10px;
+}
+
+.homeSection08 {
+    background: url('../../../Assets//Home/homeSection08.jpg');
+    padding: 100px 10px;
+}
+
+.tournamentsImg01,
+.tournamentsImg02 {
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 350px;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.tournamentsImg01{
+    animation: float 5s ease-in-out infinite;
+}
+
+.tournamentsImg02{
+    animation: float 4s ease-in-out infinite;
+}
+
+.tournamentsImgBg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.tokenomicsImg01 {
+    width: 100%;
+    margin: 50px auto;
+    display: block;
+}
+
+.tokenomicsImg02 {
+    width: 100%;
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    max-width: 650px;
+}
+
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }

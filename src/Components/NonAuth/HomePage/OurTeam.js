@@ -12,7 +12,7 @@ const OurTeam = () => {
    return (
       <div className='our-team py-5'>
          <Container>
-            <div className="text-center text-light my-4">
+            <div className="text-center text-light my-4 mb-5">
                <h2>Our Team</h2>
                <div>Collect and trade Avatars to build the ultimate sports team!</div>
             </div>

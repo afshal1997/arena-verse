@@ -7,7 +7,7 @@ const Section5 = () => {
     <div className="section05 m-auto text-light py-5">
       <Container>
 
-        <div className="col-lg-8 m-auto text-center">
+        <div className="col-lg-6 m-auto text-center">
           <h3 className="our-family">Arenas</h3>
           <p className='m-0 p-0'>
             There are currently five different arenas, each with its own sport:
@@ -22,7 +22,6 @@ const Section5 = () => {
           </div>
         </div>
         <SingleCarousal />
-
       </Container>
     </div>
   )

@@ -1,12 +1,28 @@
-@media screen and (min-width: 991px){
-.avatar-slider .slick-arrow{
+@media screen and (max-width: 991px){
+/* .avatar-slider .slick-arrow{
     display: none !important;
+} */
+
+.second-section-sc {
+    background-image: linear-gradient(0deg, #0000008c, transparent);
+    background-size: cover;
+    left: 0;
+    top: -30px;
+    margin: auto;
+    padding: 30px 10px !important;
+    padding-left: 10px;
+    z-index: -1;
 }
 
 }
 @media screen and (max-width: 768px) and (min-width: 300px){
+    .section03 h3, 
+    .section04 h3, 
+    .section05 h3, 
+    .our-team h2, 
+    .our-family,
     .mainBannerContent h1{
-        font-size: 2.5rem;
+        font-size: 2.5rem !important;
     }
     .Introduction{
         background-size: cover;

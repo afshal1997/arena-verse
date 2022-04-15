@@ -11,10 +11,12 @@ import NftIcon from '../../../Assets/Home/ntf-icon.png'
 const AvatarCarousa2 = () => {
    var settings = {
 
-      infinite: false,
-      speed: 500,
+      infinite: true,
+      speed: 2500,
       slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToScroll: 2,
+      autoplay: true,
+      autoplaySpeed: 0,
       className: "avatar-slider",
       initialSlide: 0,
       prevArrow: <img src={PrevArrow} alt="arrows" className="prev-arrow" />,
@@ -25,9 +27,8 @@ const AvatarCarousa2 = () => {
             settings: {
                slidesToShow: 3,
                slidesToScroll: 3,
-               infinite: true,
                dots: true,
-               arrows: false
+               arrows: false,
             }
          },
          {
@@ -36,7 +37,6 @@ const AvatarCarousa2 = () => {
                slidesToShow: 2,
                slidesToScroll: 2,
                initialSlide: 2,
-
                arrows: false,
             }
          },
@@ -45,7 +45,6 @@ const AvatarCarousa2 = () => {
             settings: {
                slidesToShow: 1,
                slidesToScroll: 1,
-
                arrows: false,
             }
          }

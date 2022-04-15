@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Card, Container, Row } from 'react-bootstrap';
 import Line from '../../../Assets/Home/line.png'
 import Flash from 'react-reveal/Flash';
+import { Fade } from 'react-reveal';
 
 const RoadMap = () => {
    return (
@@ -14,16 +15,20 @@ const RoadMap = () => {
                </p>
             </Col>
             <div className="position-relative card-transparent my-5 py-5">
-               <img src={Line} className="line-image" alt="" />
+               <Fade bottom cascade>
+                  <img src={Line} className="line-image" alt="" />
+               </Fade>
                <Row>
                   <Col className="m-auto me-0 p-0" lg={4}>
-                     <Card className="card-bg-transparent road-map-card p-3">
-                        <ul>
-                           <li>ArenaVerse conceptualization</li>
-                           <li>Creation of whitepaper</li>
-                           <li>ArenaVerse characters designed</li>
-                        </ul>
-                     </Card>
+                     <Fade left>
+                        <Card className="card-bg-transparent road-map-card p-3">
+                           <ul>
+                              <li>ArenaVerse conceptualization</li>
+                              <li>Creation of whitepaper</li>
+                              <li>ArenaVerse characters designed</li>
+                           </ul>
+                        </Card>
+                     </Fade>
                   </Col>
 
                   <Col className="m-auto me-0 p-0" lg={4}>
@@ -33,26 +38,30 @@ const RoadMap = () => {
                   <Col className="m-auto ms-0 p-0" lg={4}>
                   </Col>
                   <Col className="m-auto ms-0 p-0" lg={4}>
-                     <Card className="card-bg-transparent road-map-card p-3">
-                        <ul>
-                           <li>Conceptualization of Arenas and game environment</li>
-                           <li>Website development</li>
-                           <li>Partnership planning with other projects</li>
-                           <li>Creation of social media accounts and online community through discord and telegram</li>
-                        </ul>
-                     </Card>
+                     <Fade right>
+                        <Card className="card-bg-transparent road-map-card p-3">
+                           <ul>
+                              <li>Conceptualization of Arenas and game environment</li>
+                              <li>Website development</li>
+                              <li>Partnership planning with other projects</li>
+                              <li>Creation of social media accounts and online community through discord and telegram</li>
+                           </ul>
+                        </Card>
+                     </Fade>
                   </Col>
                </Row>
                <Row>
                   <Col className="m-auto me-0 p-0" lg={4}>
-                     <Card className="card-bg-transparent road-map-card p-3">
-                        <ul>
-                           <li>Smart contract development and audit</li>
-                           <li>Start of marketing campaign</li>
-                           <li>ICO of ArenaVerse NFTs</li>
-                           <li>Start of game development</li>
-                        </ul>
-                     </Card>
+                     <Fade left>
+                        <Card className="card-bg-transparent road-map-card p-3">
+                           <ul>
+                              <li>Smart contract development and audit</li>
+                              <li>Start of marketing campaign</li>
+                              <li>ICO of ArenaVerse NFTs</li>
+                              <li>Start of game development</li>
+                           </ul>
+                        </Card>
+                     </Fade>
                   </Col>
 
                   <Col className="m-auto me-0 p-0" lg={4}>
@@ -63,13 +72,15 @@ const RoadMap = () => {
                   <Col className="m-auto ms-0 p-0" lg={4}>
                   </Col>
                   <Col className="m-auto ms-0 p-0" lg={4}>
-                     <Card className="card-bg-transparent road-map-card p-3">
-                        <ul>
-                           <li>Launch of ArenaVerse Marketplace</li>
-                           <li>Listing on more exchanges and multi-chain support</li>
-                           <li>Release of Roadmap 2.0</li>
-                        </ul>
-                     </Card>
+                     <Fade right>
+                        <Card className="card-bg-transparent road-map-card p-3">
+                           <ul>
+                              <li>Launch of ArenaVerse Marketplace</li>
+                              <li>Listing on more exchanges and multi-chain support</li>
+                              <li>Release of Roadmap 2.0</li>
+                           </ul>
+                        </Card>
+                     </Fade>
                   </Col>
                </Row>
             </div>

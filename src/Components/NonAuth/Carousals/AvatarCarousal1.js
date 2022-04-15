@@ -9,11 +9,13 @@ import NextArrow from '../../../Assets/carousal-avatars/next-arrow.png'
 import PrevArrow from '../../../Assets/carousal-avatars/prev-arrow.png'
 const AvatarCarousal = () => {
    var settings = {
-
       infinite: true,
-      speed: 500,
+      speed: 2500,
       slidesToShow: 4,
-      slidesToScroll: 1,
+      slidesToScroll: 2,
+      slidesToScroll: -1,
+      autoplay: true,
+      autoplaySpeed: 0,
       className: "avatar-slider",
       initialSlide: 0,
       prevArrow: <img src={PrevArrow} alt="arrows" className="prev-arrow" />,

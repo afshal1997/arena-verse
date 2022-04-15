@@ -275,3 +275,40 @@
         transform: translatey(0px);
     }
 }
+
+.our-team img,
+.road-map-card,
+.tournamentsImgs img
+.section-06 img,
+.slick-slide img{
+    transition: 1s;
+}
+
+.road-map-card:hover {
+    background-image: linear-gradient(45deg, rgb(53 9 88), rgb(127 31 203));
+    transition: 1s;
+    background-repeat: no-repeat;
+}
+
+
+.slick-slide:hover .second-section-sc{
+    background-image: linear-gradient(45deg, rgb(101 17 125), rgb(92 22 147));
+    transition: 1s;
+    background-repeat: no-repeat;
+}
+
+.our-team img:hover,
+.tournamentsImgs:hover img,
+.section-06 img:hover,
+.slick-slide img:hover{
+    filter: brightness(0.7);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.section05 .avatar-slider:hover .slick-slide .SingleCarousalBg {
+    filter: brightness(0.7);
+    transform: scale(1.08);
+    transition: 1s;
+    margin-left: 20px;
+}

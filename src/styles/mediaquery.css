@@ -27,5 +27,15 @@
         background-attachment: scroll !important;
         background-position: center bottom;
     }
+    
+    h2.backHeading {
+        letter-spacing: 0px;
+        font-size: 2rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    body .WhitePaperBody {
+        width: 100%;
+    }
 
 }

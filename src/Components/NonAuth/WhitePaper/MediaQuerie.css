@@ -1,0 +1,18 @@
+@media screen and (max-width: 991px) {
+    .section03 h3, .section04 h3, .section05 h3, .our-team h2, .our-family, .mainBannerContent h1{
+        font-size: 2rem !important;
+    }
+
+    h6 {
+        font-size: 0.7rem;
+    }
+    
+    .section04 p,
+    .section04 h5{
+        text-align: center;
+    }
+
+    .arrowLine{
+        display: none;
+    }
+}

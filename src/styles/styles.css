@@ -5,8 +5,13 @@
 
 html,
 body {
+   background: #333 !important;
    scroll-behavior: smooth;
    overflow-x: hidden;
+}
+
+a{
+   text-decoration: none;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -43,10 +48,16 @@ body {
 .Introduction h2,
 .mainBannerContent h1,
 .mainBannerContent h4,
+.mainBannerContent h2,
 .second-section-sc h2,
 .section03 h3,
 .section04 h3,
-.section05 h3 {
+.section05 h3,
+.section02 h2,
+.aboutArenaVerse h2,
+.section04 h5,
+.section05 h5,
+h4.title {
    text-transform: uppercase;
    font-family: 'PlanetGamers';
 }
@@ -57,6 +68,17 @@ body {
 .our-team h2,
 .our-family {
    font-size: 3rem;
+}
+
+h2.backHeading {
+   letter-spacing: 10px;
+   font-size: 3rem;
+   line-height: 0;
+   display: block;
+   margin-top: -10px;
+   margin-bottom: 0px;
+   z-index: -1;
+   opacity: 0.2;
 }
 
 .footer-bg {

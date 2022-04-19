@@ -1,0 +1,86 @@
+body .WhitePaperBody{
+    width: 80%;
+    margin: auto;
+}
+
+.mainBanner {
+    background: url('../../../Assets/Whitepaper/mainBannerBg.jpg');
+}
+
+.section02 {
+    background: url('../../../Assets/Whitepaper/section02Bg.jpg');
+}
+
+.section03{
+    background: url('../../../Assets/Whitepaper/section03Bg.jpg');
+}
+
+.section04{
+    background: url('../../../Assets/Whitepaper/section04Bg.jpg');
+}
+
+.section05{
+    background: url('../../../Assets/Whitepaper/section05Bg.jpg');
+}
+
+.section05,
+.section04,
+.section03,
+.mainBanner,
+.section02{
+    background-repeat: no-repeat;
+    padding: 30px 10px !important;
+    background-size: cover;
+    height: 100%;
+    min-height: 80vh;
+    background-attachment: fixed;
+}
+
+::marker {
+    color: #452b75;
+    background: #452b75;
+}
+
+.index{
+    margin: 100px auto;
+}
+.index ul{
+    text-transform: uppercase;
+    font-family: 'PlanetGamers';
+}
+
+.index ul li{
+    text-decoration: none;
+    margin: 20px auto;
+}
+
+.pageFooter {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 20px;
+}
+
+img.arrowLine {
+    position: absolute;
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+    object-fit: cover;
+    left: 35%;
+    margin: auto;
+}
+
+.section04 h5{
+    text-align: right;
+}
+
+h4.title {
+    margin-top: -35px;
+    margin-left: 80px;
+}
+
+.totalPrice {
+    font-weight: 700;
+    font-size: 2rem;
+}

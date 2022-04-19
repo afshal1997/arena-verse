@@ -14,7 +14,9 @@ const Section7 = () => {
         <Col lg={6} className="m-auto text-center text-light">
           <h3 className="our-family"><Flip right cascade>Tournaments</Flip></h3>
           <p>
-            <Flip right cascade>There will be daily and weekly tournaments with all sorts of prizes that you can compete in as a solo or with your team! </Flip>
+            <Flip right cascade>
+              There will be daily and weekly tournaments with all sorts of prizes that you can compete in as a solo or with your team!
+            </Flip>
           </p>
         </Col>
         <Row>

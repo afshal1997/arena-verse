@@ -5,6 +5,7 @@ import Avatar1 from '../../../Assets/carousal-avatars/avatar1.png'
 import Avatar2 from '../../../Assets/carousal-avatars/avatar2.png'
 import Avatar3 from '../../../Assets/carousal-avatars/avatar3.png'
 import Avatar4 from '../../../Assets/carousal-avatars/avatar4.png'
+import Avatar9 from '../../../Assets/carousal-avatars/avatar9.png'
 import NextArrow from '../../../Assets/carousal-avatars/next-arrow.png'
 import PrevArrow from '../../../Assets/carousal-avatars/prev-arrow.png'
 const AvatarCarousal = () => {
@@ -75,9 +76,8 @@ const AvatarCarousal = () => {
                   <h4 className="text-center mt-3 shadow-text">CHICKENS</h4>
                </Col>
                <Col lg="3" className="col-3">
-                  <img className="w-100" src={Avatar1} alt="" />
-                  <h4 className="text-center mt-3 shadow-text">BEARS</h4>
-
+                  <img className="w-100" src={Avatar9} alt="" />
+                  <h4 className="text-center mt-3 shadow-text">HUMANS</h4>
                </Col>
             </Slider>
          </Row>

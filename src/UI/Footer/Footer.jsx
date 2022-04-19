@@ -27,7 +27,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li id="link-3  text-capitalize">
-                <Link to="/" className="text-light text-decoration-none">
+                <Link to="/white-paper" className="text-light text-decoration-none">
                   WHITEPAPER
                 </Link>
               </li>

@@ -16,7 +16,7 @@ const Section09 = () => {
                         <h6 className='totalPrice'>75,000,000,000 (100%)</h6>
                     </div>
                     <div className="TokenomicsImg position-relative">
-                        <img className='tokenomicsImg01' src={tokenomicsImg01} alt='tokenomicsImg' />
+                        <img className='tokenomicsImg01 tokenomicsImgAnimation' src={tokenomicsImg01} alt='tokenomicsImg' />
                     </div>
                 </Col >
             </Container >

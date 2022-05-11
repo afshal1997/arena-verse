@@ -1,5 +1,4 @@
 .HomeMainBanner {
-    background: url('../../../Assets/Home/homeMainBanner.jpg');
     background-attachment: fixed !important;
     padding: 30px 10px !important;
     height: 100vh;
@@ -33,12 +32,19 @@
     opacity: 0.8;
 }
 
+.socialMediaIcons {
+    z-index: 99;
+    position: relative;
+}
+
 .playIcon {
     width: 100%;
     max-width: 90px;
     margin: 30px auto;
     display: block;
     transition: 1s;
+    z-index: 99;
+    position: relative;
 }
 
 .playIcon:hover {
@@ -57,6 +63,8 @@
     animation: float 3s ease-in-out infinite;
     animation-timing-function: linear;
     -webkit-animation-timing-function: linear;
+    z-index: 99;
+    position: relative;
 }
 
 .playButton:hover {
@@ -101,7 +109,6 @@
     background-repeat: no-repeat;
     background-position: center center;
     padding: 10px;
-
 }
 
 .avatar-slider .slick-arrow {
@@ -203,13 +210,12 @@
     height: 100%;
     max-height: 660px;
     top: 0;
-
 }
 
 .tournamentsImg01,
 .tournamentsImg02 {
     width: 100%;
-    max-width: 200px;
+    max-width: 300px;
     height: 100%;
     max-height: 350px;
     object-fit: contain;
@@ -266,11 +272,9 @@
     0% {
         transform: translatey(0px);
     }
-
     50% {
         transform: translatey(-10px);
     }
-
     100% {
         transform: translatey(0px);
     }
@@ -278,9 +282,8 @@
 
 .our-team img,
 .road-map-card,
-.tournamentsImgs img
-.section-06 img,
-.slick-slide img{
+.tournamentsImgs img .section-06 img,
+.slick-slide img {
     transition: 1s;
 }
 
@@ -290,8 +293,7 @@
     background-repeat: no-repeat;
 }
 
-
-.slick-slide:hover .second-section-sc{
+.slick-slide:hover .second-section-sc {
     background-image: linear-gradient(45deg, rgb(101 17 125), rgb(92 22 147));
     transition: 1s;
     background-repeat: no-repeat;
@@ -299,9 +301,14 @@
 
 .our-team img:hover,
 .tournamentsImgs:hover img,
-.section-06 img:hover,
-.slick-slide img:hover{
+.slick-slide img:hover {
     filter: brightness(0.7);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.section-06 img:hover {
+    filter: brightness(1.15);
     transform: scale(1.1);
     transition: 1s;
 }

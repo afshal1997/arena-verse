@@ -27,7 +27,11 @@ const Section7 = () => {
             </div>
             <div className="tournamentsImgsContent mt-5 text-light text-center">
               <h4>Lorem Ipsum</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <h5>Health: 200</h5>
+              <h5>Power: 150</h5>
+              <h5>Defense: 175</h5>
+              <h5>Stamina: 90</h5>
+              <h5>Agility: 125</h5>
             </div>
           </Col>
           <Col lg={3} className='m-auto col-7'>
@@ -40,7 +44,11 @@ const Section7 = () => {
             </div>
             <div className="tournamentsImgsContent mt-5 text-light text-center">
               <h4>Lorem Ipsum</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <h5>Health: 185</h5>
+              <h5>Power: 177</h5>
+              <h5>Defense: 163</h5>
+              <h5>Stamina: 115</h5>
+              <h5>Agility: 100</h5>
             </div>
           </Col>
         </Row>

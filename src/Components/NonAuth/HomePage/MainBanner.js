@@ -7,29 +7,37 @@ import mainLogo from '../../../Assets/Logos/mainLogo.png'
 import playIcon from '../../../Assets/ButtonIcons/playIcon.png'
 import playButton from '../../../Assets/ButtonIcons/playNowButton.png'
 import Zoom from 'react-reveal/Zoom';
+import mainBannerVideo from '../../../Assets/Videos/ArenaVerseBannerVideo.mp4'
 
 const MainBanner = () => {
     return (
-        <div className='HomeMainBanner'>
+        <div className='HomeMainBanner position-relative'>
+             <video
+                autoPlay="true"
+                loop="true"
+                muted="true"
+                playsInline="true"
+                className='mainBannerVideo'
+                src={mainBannerVideo}
+                type="video/mp4" />
             <Container>
-                <Col lg={2} className='col-3 m-auto'>
-                    <img className='w-100 mt-5 mb-2' src={mainLogo} alt='mainLogo' />
+                <Col lg={2} className='col-3 m-auto mt-5 pt-5'>
                 </Col>
-                <Col lg={6} className='m-auto text-center'>
-                    <div className="mainBannerContent text-dark">
+                <Col lg={6} className='m-auto text-center mt-5 pt-5'>
+                    <div className="mainBannerContent text-light">
                         <h1><Zoom left cascade>ArenaVerse</Zoom></h1>
                         <h4><Zoom right cascade>an online, open world PVP </Zoom></h4>
                         <div className="socialMediaIcons">
-                            <a href="#" className='text-warning'>
+                            <a href="https://twitter.com/arenaverse_io?s=21&t=HYi_vLaLvJd71V9Jzy27oA" className='text-warning'>
                                 <FontAwesomeIcon icon={faTwitter} />
                             </a>
-                            <a href="#" className='text-warning'>
+                            <a href="https://t.me/ArenaVerseIo" className='text-warning'>
                                 <FontAwesomeIcon icon={faPaperPlane} />
                             </a>
-                            <a href="#" className='text-warning'>
+                            <a href="https://discord.com/invite/arenaverse" className='text-warning'>
                                 <FontAwesomeIcon icon={faDiscord} />
                             </a>
-                            <a href="#" className='text-warning'>
+                            <a href="https://instagram.com/arenaverse_io?igshid=YmMyMTA2M2Y=" className='text-warning'>
                                 <FontAwesomeIcon icon={faInstagram} />
                             </a>
                         </div>

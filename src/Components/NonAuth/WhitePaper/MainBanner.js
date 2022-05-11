@@ -20,11 +20,8 @@ const MainBanner = () => {
                 src={mainBannerVideo}
                 type="video/mp4" />
             <Container>
-                <Col lg={2} className='col-3 text-center m-auto mt-5 pt-5'>
-                    <img className='w-75 mt-5 mb-2' src={mainLogo} alt='mainLogo' />
-                </Col>
-                <Col lg={6} className='m-auto text-center mb-5 pb-5'>
-                    <div className="mainBannerContent mainBannerContentZindex text-light mb-5">
+                <Col lg={6} className='m-auto text-center mt-5 pt-5 mb-5 pb-5'>
+                    <div className="mainBannerContent mainBannerContentZindex mt-5 pt-5 text-light mb-5">
                         <h1><Zoom left cascade>ArenaVerse</Zoom></h1>
                         <h4><Zoom right cascade>an online, open world PVP </Zoom></h4>
                         <div className="socialMediaIcons">

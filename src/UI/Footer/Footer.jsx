@@ -45,23 +45,18 @@ const Footer = () => {
           </div>
           <hr className="text-light" />
         </Col>
-        <Col lg="10" className="m-auto">
-          <p className="text-center text-light py-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          </p>
-        </Col>
         <Col lg="5" className="m-auto text-center social-links pb-5">
           <div className="social-links-icons py-5">
-            <a href="javascript:void(0)">
+            <a href="https://twitter.com/arenaverse_io?s=21&t=HYi_vLaLvJd71V9Jzy27oA">
               <FontAwesomeIcon icon={faTwitter} className="h3 text-light mx-3" />
             </a>
-            <a href="javascript:void(0)">
+            <a href="https://t.me/ArenaVerseIo">
               <FontAwesomeIcon icon={faPaperPlane} className="h3 text-light mx-3" />
             </a>
-            <a href="javascript:void(0)">
+            <a href="https://discord.com/invite/arenaverse">
               <FontAwesomeIcon icon={faDiscord} className="h3 text-light mx-3" />
             </a>
-            <a href="javascript:void(0)">
+            <a href="https://www.instagram.com/accounts/login/?next=/arenaverse_io/">
               <FontAwesomeIcon icon={faInstagram} className="h3 text-light mx-3" />
             </a>
           </div>

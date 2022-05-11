@@ -9,6 +9,7 @@ import Avatar6 from '../../../Assets/Home/our-team/avatar6.png'
 import Avatar7 from '../../../Assets/Home/our-team/avatar7.png'
 import Avatar8 from '../../../Assets/Home/our-team/avatar8.png'
 import Avatar9 from '../../../Assets/Home/our-team/avatar9.png'
+import Avatar10 from '../../../Assets/Home/our-team/avatar10.PNG'
 import Pulse from 'react-reveal/Pulse';
 
 const OurTeam = () => {
@@ -35,26 +36,31 @@ const OurTeam = () => {
                </Col>
                <Col lg="2" className="text-center text-light">
                   <img src={Avatar3} alt="" className='w-100 mb-4' />
-                  <h6>Magnus Stavsholt</h6>
+                  <h6>Magnus Nyberg</h6>
                   <p>(Chief Marketing Officer) </p>
                </Col>
                <Col lg="2" className="text-center text-light">
+                  <img src={Avatar10} alt="" className='w-100 mb-4' />
+                  <h6>John Cinco</h6>
+                  <p>(Community Manager) </p>
+               </Col>
+               <Col lg="2" className="text-center text-light">
                   <img src={Avatar4} alt="" className='w-100 mb-4' />
-                  <h6>Daniel Bjoerk</h6>
+                  <h6>Daniel Bjørk</h6>
                   <p>(Marketing Strategist)</p>
                </Col>
+               <Col lg="1"></Col>
+            </Row>
+            <Row className="my-5">
+               <Col lg="1"></Col>
                <Col lg="2" className="text-center text-light">
                   <img src={Avatar5} alt="" className='w-100 mb-4' />
                   <h6>James Ochieng</h6>
                   <p>(Blockchain Engineer) </p>
                </Col>
-               <Col lg="1"></Col>
-            </Row>
-            <Row className="my-5">
-               <Col lg="2"></Col>
                <Col lg="2" className="m-auto text-center text-light">
                   <img src={Avatar6} alt="" className='w-100 mb-4' />
-                  <h6>James Ochieng1</h6>
+                  <h6>Jose Olive Hasin</h6>
                   <p>(Blockchain Engineer) </p>
                </Col>
                <Col lg="2" className='m-auto text-center text-light'><img src={Avatar7} alt="" className='w-100 mb-4' />
@@ -67,9 +73,8 @@ const OurTeam = () => {
                </Col>
                <Col lg="2" className='m-auto text-center text-light'><img src={Avatar9} alt="" className='w-100 mb-4' />
                   <h6>Auth Digital</h6>
-                  <p>(Lorem Ipsum)</p>
                </Col>
-               <Col lg="2"></Col>
+               <Col lg="1"></Col>
             </Row>
          </Container>
 

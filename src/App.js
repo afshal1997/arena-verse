@@ -13,7 +13,10 @@ const App = () => {
         React.Children.toArray(
           nonAuthRoutes.map(({ page, path }, id) => {
             return (
-              <MiddleWeare layout={Layout.NonAuthLayout} path={path} component={page} />
+                <MiddleWeare
+                  layout={Layout.NonAuthLayout}
+                  path={path} component={page}
+                />
             )
           })
         )
@@ -22,7 +25,11 @@ const App = () => {
         React.Children.toArray(
           authRoutes.map(({ page, path }, id) => {
             return (
-              <MiddleWeare layout={Layout.AuthLayout} path={path} component={page} />
+              <MiddleWeare
+                layout={Layout.AuthLayout}
+                path={path}
+                component={page}
+              />
             )
           })
         )

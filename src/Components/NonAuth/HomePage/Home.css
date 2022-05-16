@@ -303,7 +303,7 @@
 .tournamentsImgs:hover img,
 .slick-slide img:hover {
     filter: brightness(0.7);
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition: 1s;
 }
 
@@ -315,7 +315,7 @@
 
 .section05 .avatar-slider:hover .slick-slide .SingleCarousalBg {
     filter: brightness(0.7);
-    transform: scale(1.08);
+    transform: scale(1);
     transition: 1s;
     margin-left: 20px;
 }

@@ -65,7 +65,6 @@ const OurTeam = () => {
                </Col>
                <Col lg="2" className='m-auto text-center text-light'><img src={Avatar7} alt="" className='w-100 mb-4' />
                   <h6>Mattias Rødland</h6>
-                  <p>(Lorem Ipsum)</p>
                </Col>
                <Col lg="2" className='m-auto text-center text-light'><img src={Avatar8} alt="" className='w-100 mb-4' />
                   <h6>Frankie Pinat</h6>

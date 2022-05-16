@@ -3,7 +3,6 @@ import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Col, Container } from 'react-bootstrap'
-import mainLogo from '../../../Assets/Logos/mainLogo.png'
 import playIcon from '../../../Assets/ButtonIcons/playIcon.png'
 import playButton from '../../../Assets/ButtonIcons/playNowButton.png'
 import Zoom from 'react-reveal/Zoom';
@@ -20,24 +19,22 @@ const MainBanner = () => {
                 className='mainBannerVideo'
                 src={mainBannerVideo}
                 type="video/mp4" />
-            <Container>
-                <Col lg={2} className='col-3 m-auto mt-5 pt-5'>
-                </Col>
+            <Container className='mt-5 pt-5'>
                 <Col lg={6} className='m-auto text-center mt-5 pt-5'>
                     <div className="mainBannerContent text-light">
                         <h1><Zoom left cascade>ArenaVerse</Zoom></h1>
                         <h4><Zoom right cascade>an online, open world PVP </Zoom></h4>
                         <div className="socialMediaIcons">
-                            <a href="https://twitter.com/arenaverse_io?s=21&t=HYi_vLaLvJd71V9Jzy27oA" className='text-warning'>
+                            <a href="https://twitter.com/arenaverse_io?s=21&t=HYi_vLaLvJd71V9Jzy27oA" className='text-light'>
                                 <FontAwesomeIcon icon={faTwitter} />
                             </a>
-                            <a href="https://t.me/ArenaVerseIo" className='text-warning'>
+                            <a href="https://t.me/ArenaVerseIo" className='text-light'>
                                 <FontAwesomeIcon icon={faPaperPlane} />
                             </a>
-                            <a href="https://discord.com/invite/arenaverse" className='text-warning'>
+                            <a href="https://discord.com/invite/arenaverse" className='text-light'>
                                 <FontAwesomeIcon icon={faDiscord} />
                             </a>
-                            <a href="https://instagram.com/arenaverse_io?igshid=YmMyMTA2M2Y=" className='text-warning'>
+                            <a href="https://instagram.com/arenaverse_io?igshid=YmMyMTA2M2Y=" className='text-light'>
                                 <FontAwesomeIcon icon={faInstagram} />
                             </a>
                         </div>

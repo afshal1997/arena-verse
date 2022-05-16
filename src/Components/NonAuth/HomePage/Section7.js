@@ -26,7 +26,6 @@ const Section7 = () => {
               <img className='tournamentsImgBg' src={tournamentsImg01Bg} alt='tournamentsImg01Bg' />
             </div>
             <div className="tournamentsImgsContent mt-5 text-light text-center">
-              <h4>Lorem Ipsum</h4>
               <h5>Health: 200</h5>
               <h5>Power: 150</h5>
               <h5>Defense: 175</h5>
@@ -43,7 +42,6 @@ const Section7 = () => {
               <img className='tournamentsImgBg' src={tournamentsImg02Bg} alt='tournamentsImg02Bg' />
             </div>
             <div className="tournamentsImgsContent mt-5 text-light text-center">
-              <h4>Lorem Ipsum</h4>
               <h5>Health: 185</h5>
               <h5>Power: 177</h5>
               <h5>Defense: 163</h5>

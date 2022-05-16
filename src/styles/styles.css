@@ -82,7 +82,7 @@ h2.backHeading {
 }
 
 .footer-bg {
-   background-image: url(../Assets/Home/footer-bg.png);
+   background-image: url('../Assets/Home/footer-bg.png');
    background-position: center center;
    background-size: cover;
    height: 100%;

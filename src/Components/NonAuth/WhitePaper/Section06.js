@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container } from 'react-bootstrap'
 import { Zoom } from 'react-reveal'
 import PageFooter from './PageFooter'
 import img06 from '../../../Assets/Whitepaper/img06.png'

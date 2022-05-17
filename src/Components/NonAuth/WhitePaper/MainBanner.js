@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Col, Container } from 'react-bootstrap'
 import { Zoom } from 'react-reveal'
-import mainLogo from '../../../Assets/Logos/mainLogo.png'
 import PageFooter from './PageFooter'
 import mainBannerVideo from '../../../Assets/Videos/ArenaVerseBannerVideo.mp4'
 
@@ -25,16 +24,16 @@ const MainBanner = () => {
                         <h1><Zoom left cascade>ArenaVerse</Zoom></h1>
                         <h4><Zoom right cascade>an online, open world PVP </Zoom></h4>
                         <div className="socialMediaIcons">
-                            <a href="#" className='text-light'>
+                            <a href="https://twitter.com/arenaverse_io?s=21&t=HYi_vLaLvJd71V9Jzy27oA" className='text-light'>
                                 <FontAwesomeIcon icon={faTwitter} />
                             </a>
-                            <a href="#" className='text-light'>
+                            <a href="https://t.me/ArenaVerseIo" className='text-light'>
                                 <FontAwesomeIcon icon={faPaperPlane} />
                             </a>
-                            <a href="#" className='text-light'>
+                            <a href="https://discord.com/invite/arenaverse" className='text-light'>
                                 <FontAwesomeIcon icon={faDiscord} />
                             </a>
-                            <a href="#" className='text-light'>
+                            <a href="https://instagram.com/arenaverse_io?igshid=YmMyMTA2M2Y=" className='text-light'>
                                 <FontAwesomeIcon icon={faInstagram} />
                             </a>
                         </div>

@@ -12,20 +12,23 @@ import Section07 from '../../Components/NonAuth/WhitePaper/Section07'
 import Section08 from '../../Components/NonAuth/WhitePaper/Section08'
 import Section09 from '../../Components/NonAuth/WhitePaper/Section09'
 import Section10 from '../../Components/NonAuth/WhitePaper/Section10'
+import ScrollToTop from './ScrollToTop'
 
 const WhitePaper = () => {
   return (
     <div className='WhitePaperBody'>
-      <MainBanner />
-      <Section02 />
-      <Section03 />
-      <Section04 />
-      <Section05 />
-      <Section06 />
-      <Section07 />
-      <Section08 />
-      <Section09 />
-      <Section10 />
+      <ScrollToTop>
+        <MainBanner />
+        <Section02 />
+        <Section03 />
+        <Section04 />
+        <Section05 />
+        <Section06 />
+        <Section07 />
+        <Section08 />
+        <Section09 />
+        <Section10 />
+      </ScrollToTop>
     </div>
   )
 }

@@ -22,7 +22,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li id="link-2  text-capitalize">
-                <Link to="/" className="text-light text-decoration-none">
+                <Link to="/market-place" className="text-light text-decoration-none">
                   MARKETPLACE
                 </Link>
               </li>
@@ -32,7 +32,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li id="link-4  text-capitalize">
-                <Link to="/" className="text-light text-decoration-none">
+                <Link to="/tokenomics" className="text-light text-decoration-none">
                   TOKENOMICS
                 </Link>
               </li>

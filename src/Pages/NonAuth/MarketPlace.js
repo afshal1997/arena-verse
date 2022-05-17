@@ -1,10 +1,13 @@
 import React from 'react'
 import HomeSection04 from '../../Components/NonAuth/HomePage/HomeSection4'
+import ScrollToTop from './ScrollToTop'
 
 const MarketPlace = () => {
   return (
     <div className='marketPlacePage'>
-      <HomeSection04/>
+      <ScrollToTop>
+        <HomeSection04 />
+      </ScrollToTop>
     </div>
   )
 }

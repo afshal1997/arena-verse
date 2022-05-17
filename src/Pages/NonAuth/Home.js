@@ -11,20 +11,23 @@ import Section7 from '../../Components/NonAuth/HomePage/Section7'
 import OurTeam from '../../Components/NonAuth/HomePage/OurTeam'
 import HomeSection08 from '../../Components/NonAuth/HomePage/HomeSection08'
 import RoadMap from '../../Components/NonAuth/HomePage/RoadMap'
+import ScrollToTop from './ScrollToTop'
 
 const Home = () => {
   return (
     <div className='homePage'>
-      <MainBanner />
-      <HomeSection02 />
-      <HomeSection03 />
-      <HomeSection04 />
-      <Section5 />
-      <Section06 />
-      <Section7 />
-      <HomeSection08 />
-      <RoadMap />
-      <OurTeam />
+      <ScrollToTop>
+        <MainBanner />
+        <HomeSection02 />
+        <HomeSection03 />
+        <HomeSection04 />
+        <Section5 />
+        <Section06 />
+        <Section7 />
+        <HomeSection08 />
+        <RoadMap />
+        <OurTeam />
+      </ScrollToTop>
     </div>
   )
 }

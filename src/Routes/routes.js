@@ -13,6 +13,9 @@ export const nonAuthRoutes = [
   },
   {
     path:'/white-paper' ,page:NonAuthPages.WhitePaper
+  },
+  {
+    path:'/tokenomics' ,page:NonAuthPages.Tokenomics
   }
 ]
 export const authRoutes = [

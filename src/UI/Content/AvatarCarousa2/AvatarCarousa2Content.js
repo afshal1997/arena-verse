@@ -9,28 +9,28 @@ export const AvatarCarousa1Content = [
     
     {
         AvatarCarousa2Img: Avatar1,
-        AvatarCarousa2Type: 'Bears',
+        AvatarCarousa2Type: 'Humans',
         AvatarCarousa2Rarity: '125',
         AvatarCarousa2Icon: NftIcon,
         AvatarCarousa2Rate: '.5',
     },
     {
         AvatarCarousa2Img: Avatar2,
-        AvatarCarousa2Type: 'Cats',
+        AvatarCarousa2Type: 'Foxes',
         AvatarCarousa2Rarity: '125',
         AvatarCarousa2Icon: NftIcon,
         AvatarCarousa2Rate: '.53',
     },
     {
         AvatarCarousa2Img: Avatar3,
-        AvatarCarousa2Type: 'Foxes',
+        AvatarCarousa2Type: 'Cats',
         AvatarCarousa2Rarity: '347',
         AvatarCarousa2Icon: NftIcon,
         AvatarCarousa2Rate: '.67',
     },
     {
         AvatarCarousa2Img: Avatar4,
-        AvatarCarousa2Type: 'Humans',
+        AvatarCarousa2Type: 'Bears',
         AvatarCarousa2Rarity: '589',
         AvatarCarousa2Icon: NftIcon,
         AvatarCarousa2Rate: '.54',

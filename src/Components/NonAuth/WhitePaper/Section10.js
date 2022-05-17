@@ -12,27 +12,28 @@ const Section10 = () => {
                         <h2 className='backHeading'>Information</h2>
                         <h2 className='mb-3'><Zoom left cascade>Token Information</Zoom></h2>
                         <p className='mb-3'>
-                            There is an 11% buy and sell tax, 8% of which will be redistributed to Arena token holders, directly to their wallet in the form of BUSD everyday (Minimum 24 hour hold from initial purchase of the token to avail for this reward). The other 3% will be used for token buybacks.
+                            There is a 10% buy and sell tax, 7% of which will be redistributed to Arena token holders, directly to their wallet in the form of BNB once a week. Minimum 7 day hold time (168 hours) from initial purchase of the token to be included in the dividend disbursements. The other 3% will be used for token buybacks, which limit selling pressure and drawdowns.
                         </p>
                         <p className='mb-3'>
-                            We will start to burn 25 Billion of the 75 billion tokens after we launch as a 			deflationary measure to keep the supply of the tokens limited. This provides the investor with not only the ability to have passive income from simply holding the tokens, but also provides Arena token investors with an appreciating asset, as the tokens will be limited in supply, and there will be constant buying back of the tokens by the team, to really reward the investors as the company grows.
+                            Buy and sell limit of .5% of the total circulating supply of Arena Tokens. This will limit and discourage the manipulation efforts by whales and algorithmic programs seeking to take advantage of Arena Token holders, and promote organic price action. 30% of the tokens will be used for development purposes of the game, to pay developers, artists, and any others working to develop the game.
                         </p>
                         <p className='mb-3'>
-                            Buy and sell limit of .2% of the total circulating supply to discourage price manipulation and promote organic movement.
+                            30% of the tokens will be in the open market, available for purchase, through multiple decentralized trading exchanges to investors looking to invest in ArenaVerse.
                         </p>
                         <p className='mb-3'>
-                            Any single transaction will be limited to no more than .2% of the total circulating supply. This will limit the manipulation whales and bots can do to the token price, and promote organic price action.
+                            15% of the tokens will be used for tournament rewards. This may increase as the development of the game progresses because then, we will be able to re-allocate marketing and development funds towards the play2earn rewards pool.
                         </p>
                         <p className='mb-3'>
-                            The team tokens will be locked for the first 6 months and vested for a duration of 5 years, of which only 10% may be sold every 6 months after. This shows our investors that we are fully invested in the growth and development of this game in the long term.
+                            10% will go towards marketing efforts to bring in more ArenaVerse players and investors.
                         </p>
                         <p className='mb-3'>
-                            11% of the tokens will be used for development purposes of the game, to pay developers, artists, and any others working to develop the game.
-                            11% will go towards marketing efforts to bring in more Arena players.
-                            11% of the tokens will be used for tournament rewards. This may increase as the development of the game progresses because then we will be able to re-allocate marketing and development funds to the funds for player rewards.
+                            10% of the tokens will be sold to early investors of the company in the form of a private sale and a pre-sale before the listing on decentralized exchanges.
                         </p>
                         <p className='mb-3'>
-                            23% of the tokens will be sold to early investors of the company. Although encouraged to hold, as the early long term investors will reap the most rewards, these tokens are still considered open to the public as the holders may sell at any time. 53% will also be released to the public upon launch, 33% of which will be burned as a deflationary  measure.
+                            5% of the tokens will be given to the team, but will be locked for the first 6 months and vested for a duration of 5 years, of which only 10% may be sold every 6 months after.
+                        </p>
+                        <p className='mb-3'>
+                            This shows our investors that we are fully invested in the growth and development of ArenaVerse in the long term
                         </p>
                     </div>
                 </Col >

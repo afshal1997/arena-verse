@@ -61,10 +61,11 @@ const OurTeam = () => {
                <Col lg="2" className="m-auto text-center text-light">
                   <img src={Avatar6} alt="" className='w-100 mb-4' />
                   <h6>Jose Olive Hasin</h6>
-                  <p>(Blockchain Engineer) </p>
+                  <p>(Artist)</p>
                </Col>
                <Col lg="2" className='m-auto text-center text-light'><img src={Avatar7} alt="" className='w-100 mb-4' />
                   <h6>Mattias Rødland</h6>
+                  <p>(Artist)</p>
                </Col>
                <Col lg="2" className='m-auto text-center text-light'><img src={Avatar8} alt="" className='w-100 mb-4' />
                   <h6>Frankie Pinat</h6>
@@ -72,6 +73,7 @@ const OurTeam = () => {
                </Col>
                <Col lg="2" className='m-auto text-center text-light'><img src={Avatar9} alt="" className='w-100 mb-4' />
                   <h6>Auth Digital</h6>
+                  <p>(UX Developer)</p>
                </Col>
                <Col lg="1"></Col>
             </Row>

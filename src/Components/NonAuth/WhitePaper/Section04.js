@@ -28,12 +28,12 @@ const Section04 = () => {
                         <div className="position-relative">
                             <Row>
                                 <Col lg={4} className='m-auto'>
-                                    <h5>The Arena tokens are an appreciating asset</h5>
+                                    <h5>Weekly Dividend Distribution</h5>
                                 </Col>
                                 <img className='arrowLine' src={arrowLine} alt="arrowLine" />
                                 <Col lg={7} className='m-auto mt-5 mb-4'>
                                     <p>
-                                        On top of being able to earn tokens by playing the game, the tokens themselves are also appreciating assets, as the holders will be rewarded BUSD (Binance dollars which can be exchanged for fiat or other crypto currencies) everyday for simply holding the token (minimum 24 hour hold time after token purchase). These rewards come from the fees for every token transaction, which we then re-distribute to investors, and send directly to their wallet holding the Arena tokens. The more Arena tokens you hold, the more BUSD rewards you receive.
+                                    On top of being able to earn tokens by playing the game, Arena tokens themselves are also appreciating assets, as there is only a finite amount of tokens, and holders will be rewarded BNB once a week for simply holding their tokens (minimum 7 day hold time after token purchase). These rewards come from the fees for every token transaction, which we then re-distribute to investors, and sent directly to their wallet holding the Arena tokens. The more Arena tokens you hold, the more BNB rewards you receive.
                                     </p>
                                 </Col>
                             </Row>
@@ -47,7 +47,7 @@ const Section04 = () => {
                                 <img className='arrowLine' src={arrowLine} alt="arrowLine" />
                                 <Col lg={7} className='m-auto'>
                                     <p>
-                                        Players purchase in-game currency called Arena tokens which they can then be used to wager on games against other players through five of our current games (Soccer, Football, Basketball, Tennis, and Boxing). Since each game is held in an arena, others may enter and watch the game. They may also place wagers on others’ games.
+                                    Players purchase in-game currency called Arena tokens which they can then use to wager on games against other players through five of our current games (Soccer, Football, Basketball, Tennis, and Boxing). Since each game is held in an arena, others may enter and watch the game. They may also place wagers on others’ games.
                                     </p>
                                 </Col>
                             </Row>

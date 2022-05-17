@@ -6,6 +6,7 @@ export var singleSlideCarousal = {
    speed: 500,
    slidesToShow: 1,
    slidesToScroll: 1,
+   autoplay: false,
    className: "avatar-slider",
    initialSlide: 0,
    prevArrow: <img src={PrevArrow} alt="arrows" className="prev-arrow" />,

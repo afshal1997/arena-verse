@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import { Flip } from 'react-reveal'
 import AvatarCarousal1 from '../Carousals/AvatarCarousal1'
 
 const HomeSection03 = () => {

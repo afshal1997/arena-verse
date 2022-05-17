@@ -8,19 +8,19 @@ export const AvatarCarousa1Content = [
     
     {
         AvatarCarousa1Img: Avatar1,
-        AvatarCarousa1title: 'BEARS'
+        AvatarCarousa1title: 'CHICKENS'
     },
     {
         AvatarCarousa1Img: Avatar2,
-        AvatarCarousa1title: 'CATS'
-    },
-    {
-        AvatarCarousa1Img: Avatar3,
         AvatarCarousa1title: 'FOXES'
     },
     {
+        AvatarCarousa1Img: Avatar3,
+        AvatarCarousa1title: 'CATS'
+    },
+    {
         AvatarCarousa1Img: Avatar4,
-        AvatarCarousa1title: 'CHICKENS'
+        AvatarCarousa1title: 'BEARS'
     },
     {
         AvatarCarousa1Img: Avatar9,

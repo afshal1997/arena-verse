@@ -7,7 +7,7 @@ export var AvatarCarousalSettings = {
     speed: 2500,
     slidesToShow: 4,
     slidesToScroll: 2,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 1000,
     className: "avatar-slider",
     initialSlide: 0,

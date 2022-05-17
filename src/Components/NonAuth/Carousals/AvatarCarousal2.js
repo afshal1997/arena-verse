@@ -5,7 +5,7 @@ import AvatarCarousa2Data from '../../../UI/Content/AvatarCarousa2/AvatarCarousa
 import { AvatarCarousalSettings } from '../../../utils/AvatarCarousalSettings';
 const AvatarCarousa2 = () => {
    return (
-      <div className='ntf-icons'>
+      <div className='ntf-icons mb-5'>
          <Slider {...AvatarCarousalSettings}>
             {
                React.Children.toArray(

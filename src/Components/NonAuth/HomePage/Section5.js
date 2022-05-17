@@ -12,10 +12,7 @@ const Section5 = () => {
             Arenas
           </h3>
           <p className='m-0 p-0'>
-              There are currently five different arenas, each with its own sport:
-          </p>
-          <p className='m-0 p-0'>
-              Soccer, Basketball, Football, Tennis, and Boxing.
+              There are currently five different arenas, each with its own sport
           </p>
           <div className="my-5">
             <em>

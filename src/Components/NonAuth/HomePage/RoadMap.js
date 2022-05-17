@@ -44,7 +44,7 @@ const RoadMap = () => {
                               <li>Conceptualization of Arenas and game environment</li>
                               <li>Website development</li>
                               <li>Partnership planning with other projects</li>
-                              <li>Creation of social media accounts and online community through discord and telegram</li>
+                              <li>Creation of social media accounts and online community growth through social media, Discord, Telegram,AMA’s, twitter spaces, and partnerships.</li>
                            </ul>
                         </Card>
                      </Fade>

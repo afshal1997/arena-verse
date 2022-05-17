@@ -14,7 +14,7 @@ import RoadMap from '../../Components/NonAuth/HomePage/RoadMap'
 
 const Home = () => {
   return (
-    <div>
+    <div className='homePage'>
       <MainBanner />
       <HomeSection02 />
       <HomeSection03 />

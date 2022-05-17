@@ -1,21 +1,21 @@
 * {
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 html,
 body {
-   background: #333 !important;
-   scroll-behavior: smooth;
-   overflow-x: hidden;
+    background: #333 !important;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
-a{
-   text-decoration: none;
+a {
+    text-decoration: none;
 }
 
 .navbar-light .navbar-toggler-icon {
-   filter: invert(1);
+    filter: invert(1);
 }
 
 .homeSection08,
@@ -28,17 +28,17 @@ a{
 .section-06,
 .our-team,
 .road-map {
-   background-attachment: fixed !important;
+    background-attachment: fixed !important;
 }
 
 .homeSection08,
 .homeSection07,
 .HomeMainBanner,
 .HomeSection02 {
-   background-position: center center !important;
-   background-repeat: no-repeat !important;
-   background-size: cover !important;
-   position: relative !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative !important;
 }
 
 .TokenomicsContent h4,
@@ -58,8 +58,8 @@ a{
 .section04 h5,
 .section05 h5,
 h4.title {
-   text-transform: uppercase;
-   font-family: 'PlanetGamers';
+    text-transform: uppercase;
+    font-family: 'PlanetGamers';
 }
 
 .section03 h3,
@@ -67,35 +67,43 @@ h4.title {
 .section05 h3,
 .our-team h2,
 .our-family {
-   font-size: 3rem;
+    font-size: 3rem;
 }
 
 h2.backHeading {
-   letter-spacing: 10px;
-   font-size: 3rem;
-   line-height: 0;
-   display: block;
-   margin-top: -10px;
-   margin-bottom: 0px;
-   z-index: -1;
-   opacity: 0.2;
+    letter-spacing: 10px;
+    font-size: 3rem;
+    line-height: 0;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.homePage .section04 {
+    padding-top: 0 !important;
+}
+
+.marketPlacePage .section04 {
+    padding-top: 120px !important;
 }
 
 .footer-bg {
-   background-image: url('../Assets/Home/footer-bg.png');
-   background-position: center center;
-   background-size: cover;
-   height: 100%;
+    background-image: url('../Assets/Home/footer-bg.png');
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
 }
 
 .footer-links ul {
-   display: inline-flex;
-   padding-left: 0;
+    display: inline-flex;
+    padding-left: 0;
 }
 
 .footer-links ul li {
-   margin: auto 40px;
-   list-style-type: none;
-   font-size: 15px !important;
-   font-family: "PlanetGamers";
+    margin: auto 40px;
+    list-style-type: none;
+    font-size: 15px !important;
+    font-family: "PlanetGamers";
 }

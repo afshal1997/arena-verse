@@ -5,18 +5,16 @@ import tournamentsImg02 from '../../../Assets/Home/cartoon1.png'
 import tournamentsImg01Bg from '../../../Assets/Home/b1.png'
 import tournamentsImg02Bg from '../../../Assets/Home/b2.png'
 import vsImg from '../../../Assets/Home/vsImg.png'
-import { Flip } from 'react-reveal'
+import Zoom from 'react-reveal'
 
 const Section7 = () => {
   return (
     <div className='homeSection07'>
       <Container>
         <Col lg={6} className="m-auto text-center text-light">
-          <h3 className="our-family"><Flip right cascade>Tournaments</Flip></h3>
+          <h3 className="our-family">Tournaments</h3>
           <p>
-            <Flip right cascade>
               There will be daily and weekly tournaments with all sorts of prizes that you can compete in as a solo or with your team!
-            </Flip>
           </p>
         </Col>
         <Row>
@@ -26,11 +24,11 @@ const Section7 = () => {
               <img className='tournamentsImgBg' src={tournamentsImg01Bg} alt='tournamentsImg01Bg' />
             </div>
             <div className="tournamentsImgsContent mt-5 text-light text-center">
-              <h5>Health: 200</h5>
-              <h5>Power: 150</h5>
-              <h5>Defense: 175</h5>
-              <h5>Stamina: 90</h5>
-              <h5>Agility: 125</h5>
+            <h4><Zoom right>Health: 200</Zoom></h4>
+            <h4><Zoom right>Power: 150</Zoom></h4>
+            <h4><Zoom right>Defense: 175</Zoom></h4>
+            <h4><Zoom right>Stamina: 90</Zoom></h4>
+            <h4><Zoom right>Agility: 125</Zoom></h4>
             </div>
           </Col>
           <Col lg={3} className='m-auto col-7'>
@@ -42,11 +40,11 @@ const Section7 = () => {
               <img className='tournamentsImgBg' src={tournamentsImg02Bg} alt='tournamentsImg02Bg' />
             </div>
             <div className="tournamentsImgsContent mt-5 text-light text-center">
-              <h5>Health: 185</h5>
-              <h5>Power: 177</h5>
-              <h5>Defense: 163</h5>
-              <h5>Stamina: 115</h5>
-              <h5>Agility: 100</h5>
+            <h4><Zoom right>Health: 185</Zoom></h4>
+            <h4><Zoom right>Power: 177</Zoom></h4>
+            <h4><Zoom right>Defense: 163</Zoom></h4>
+            <h4><Zoom right>Stamina: 115</Zoom></h4>
+            <h4><Zoom right>Agility: 100</Zoom></h4>
             </div>
           </Col>
         </Row>

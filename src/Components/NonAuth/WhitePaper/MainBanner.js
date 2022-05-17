@@ -42,16 +42,15 @@ const MainBanner = () => {
                 </Col>
                 <Col lg={6} className='m-auto text-center mb-5'>
                     <div className="mainBannerContent mainBannerContentZindex text-light mb-5">
-                        <h2 className='mb-0'><Zoom right cascade>Token Of</Zoom></h2>
                         <h1 className='mt-0'><Zoom left cascade>WHITEPAPER</Zoom></h1>
                         <p>
-                            ArenaVerse is an online, open world PVP, play-to-earn sports-based game that allows players to team up with others or go solo and play against others all across the globe for a chance to win money and other prizes!
+                            ArenaVerse is an online, open world PVP, play-to-earn sports-based game that allows players to team up with their friends or go solo and play against others all across the globe for a chance to win arena tokens and exclusive prizes!
                         </p>
                     </div>
                 </Col>
                 <Col lg={6} className='m-auto text-center mb-5 pb-5'>
                     <div className="mainBannerContent mainBannerContentZindex text-light mb-5">
-                        <h6 className='mt-0'><Zoom left cascade>Version 1.0 - April 2022</Zoom></h6>
+                        <h6 className='mt-0'><Zoom left cascade>Version 1.0 to May-June 2022</Zoom></h6>
                         <h4>ENGLISH</h4>
                     </div>
                 </Col>

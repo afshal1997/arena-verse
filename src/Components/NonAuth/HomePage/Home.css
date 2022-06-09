@@ -21,6 +21,13 @@
     line-height: 0.9;
 }
 
+.mainBannerContent h1,
+.mainBannerContent h4{
+    z-index: 1;
+    position: relative;
+}
+
+
 .socialMediaIcons a {
     transition: 1s;
     font-size: 2rem;
@@ -132,7 +139,7 @@
     top: 0;
     bottom: 0;
     margin: auto;
-    padding: 80px 30px !important;
+    padding: 100px 30px !important;
     padding-left: 100px !important;
     z-index: -1;
 }

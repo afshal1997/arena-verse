@@ -7,22 +7,18 @@ export const AvatarCarousa3Content = [
     
     {
         AvatarCarousa3Img: Slider5,
-        AvatarCarousa3title: 'Football',
-        AvatarCarousa3Details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        AvatarCarousa3title: 'Football'
     },
     {
         AvatarCarousa3Img: Slider2,
-        AvatarCarousa3title: 'Basketball',
-        AvatarCarousa3Details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        AvatarCarousa3title: 'Basketball'
     },
     {
         AvatarCarousa3Img: Slider3,
-        AvatarCarousa3title: 'Tennis',
-        AvatarCarousa3Details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        AvatarCarousa3title: 'Tennis'
     },
     {
         AvatarCarousa3Img: Slider4,
-        AvatarCarousa3title: 'Boxing',
-        AvatarCarousa3Details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        AvatarCarousa3title: 'Boxing'
     }
 ]

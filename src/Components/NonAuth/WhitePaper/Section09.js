@@ -8,7 +8,7 @@ const Section09 = () => {
     return (
         <div id='Tokenomics' className="section05 position-relative">
             <Container>
-                <Col lg={8} className='text-light m-auto mb-5 pb-5 text-center'>
+                <Col lg={7} className='text-light m-auto mb-5 pb-5 text-center'>
                     <div className="TokenomicsContent">
                         <h3 className="our-family mb-0"><Zoom left cascade>Tokenomics</Zoom></h3>
                         <h4 className='text-secondary'><Zoom left cascade>Arena Token Allocation:</Zoom></h4>

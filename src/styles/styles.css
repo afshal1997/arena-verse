@@ -107,3 +107,19 @@ h2.backHeading {
     font-size: 15px !important;
     font-family: "PlanetGamers";
 }
+
+.comingSoon .btn-close {
+    position: absolute;
+    top: -160px;
+    right: 10px;
+    z-index: 2;
+    filter: invert(1);
+}
+
+.comingSoon .modal-content {
+    background: url('../Assets/Home/homeSection08.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 180px 10px;
+}

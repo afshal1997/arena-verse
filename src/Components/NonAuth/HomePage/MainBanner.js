@@ -6,12 +6,14 @@ import { Col, Container } from 'react-bootstrap'
 import playIcon from '../../../Assets/ButtonIcons/playIcon.png'
 import playButton from '../../../Assets/ButtonIcons/playNowButton.png'
 import Zoom from 'react-reveal/Zoom';
-import mainBannerVideo from '../../../Assets/Videos/ArenaVerseBannerVideo.mp4'
+import mainBannerVideo from '../../../Assets/Videos/ArenaVerseHomeBannerVide.mp4'
+import ComingSoonPopup from '../../../UI/Modals/ComingSoonPopup'
 
 const MainBanner = () => {
+    const [modalShow, setModalShow] = React.useState(false);
     return (
         <div className='HomeMainBanner position-relative'>
-             <video
+            <video
                 autoPlay="true"
                 loop="true"
                 muted="true"
@@ -22,8 +24,8 @@ const MainBanner = () => {
             <Container className='mt-5 pt-5'>
                 <Col lg={6} className='m-auto text-center mt-5 pt-5'>
                     <div className="mainBannerContent text-light">
-                        <h1><Zoom left cascade>ArenaVerse</Zoom></h1>
-                        <h4><Zoom right cascade>an online, open world PVP </Zoom></h4>
+                        <h1>ArenaVerse</h1>
+                        <h4>an online, open world PVP</h4>
                         <div className="socialMediaIcons">
                             <a href="https://twitter.com/arenaverse_io?s=21&t=HYi_vLaLvJd71V9Jzy27oA" className='text-light'>
                                 <FontAwesomeIcon icon={faTwitter} />
@@ -38,11 +40,15 @@ const MainBanner = () => {
                                 <FontAwesomeIcon icon={faInstagram} />
                             </a>
                         </div>
-                        <img className='playIcon' src={playIcon} alt='playIcon' />
-                        <img className='playButton' src={playButton} alt='playButton' />
+                        <img className='playIcon' onClick={() => setModalShow(true)} src={playIcon} alt='playIcon' />
+                        <img className='playButton' onClick={() => setModalShow(true)} src={playButton} alt='playButton' />
                     </div>
                 </Col>
             </Container>
+            <ComingSoonPopup
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
         </div>
     )
 }

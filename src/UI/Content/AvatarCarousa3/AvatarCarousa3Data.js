@@ -10,8 +10,7 @@ const AvatarCarousa3Data = (props) => {
                 </Col>
                 <Col lg="7" className='m-auto'>
                     <div className="second-section-sc">
-                        <h2>{props.AvatarCarousa3title}</h2>
-                        <p>{props.AvatarCarousa3Details}</p>
+                        <h2 className='mb-0'>{props.AvatarCarousa3title}</h2>
                     </div>
                 </Col>
             </Row>

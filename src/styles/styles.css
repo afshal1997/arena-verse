@@ -123,3 +123,22 @@ h2.backHeading {
     background-position: center;
     padding: 180px 10px;
 }
+
+#chartobject-1 svg,
+#chartobject-1 svg g rect {
+    background: transparent !important;
+    fill: rgb(0,0,0,0.0) !important;
+}
+
+#chartobject-1 svg > g:not(.raphael-group-3-parentgroup){
+    display:none !important;
+}
+
+svg#raphael-paper-2 {
+    width: 100%;
+    transform: scaleY(1.8);
+}
+
+#chartobject-1 text{
+    font-size:0.7rem !important;
+}

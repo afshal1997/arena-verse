@@ -4,8 +4,8 @@ import * as Layout from './Layout';
 import MiddleWeare from './Routes/MiddleWeare';
 import { Router } from '@reach/router';
 import { nonAuthRoutes, authRoutes } from './Routes/routes';
-import './Styles/styles.css'
-import './Styles/mediaquery.css'
+import './styles/styles.css'
+import './styles/mediaquery.css'
 const App = () => {
   return (
     <Router>

@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Bounce, Zoom } from 'react-reveal'
 import tokenomicsImg01 from '../../../Assets/Home/tokenomicsImg.png'
+import PieChart from '../Charts/PieChart'
 
 const HomeSection08 = () => {
     return (
@@ -14,9 +15,7 @@ const HomeSection08 = () => {
                             <h4 className='text-secondary'><Zoom left cascade>Arena Token Allocation:</Zoom></h4>
                             <h6><Zoom left cascade>Total Initial supply: 75,000,000,000 (100%)</Zoom></h6>
                         </div>
-                        <div className="TokenomicsImg position-relative">
-                            <img className='tokenomicsImg01' src={tokenomicsImg01} alt='tokenomicsImg' />
-                        </div>
+                        <PieChart />
                     </Col>
                     <Col lg={6} className='m-auto text-light'>
                         <div className="features">

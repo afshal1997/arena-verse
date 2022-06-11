@@ -1,15 +1,14 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Bounce, Zoom } from 'react-reveal'
-import tokenomicsImg01 from '../../../Assets/Home/tokenomicsImg.png'
 import PieChart from '../Charts/PieChart'
 
 const HomeSection08 = () => {
     return (
-        <div className='homeSection08' id='tokenomics'>
+        <div className='homeSection08 pb-0' id='tokenomics'>
             <Container>
                 <Row>
-                    <Col lg={6} className="text-light">
+                    <Col lg={7} className="text-light">
                         <div className="TokenomicsContent">
                             <h3 className="our-family mb-0"><Zoom left cascade>Tokenomics</Zoom></h3>
                             <h4 className='text-secondary'><Zoom left cascade>Arena Token Allocation:</Zoom></h4>
@@ -17,7 +16,7 @@ const HomeSection08 = () => {
                         </div>
                         <PieChart />
                     </Col>
-                    <Col lg={6} className='m-auto text-light'>
+                    <Col lg={5} className='m-auto text-light'>
                         <div className="features">
                             <h2 className="text-success"><Bounce right cascade>Token Features</Bounce></h2>
                             <h5 className='text-secondary'>Passive Income</h5>

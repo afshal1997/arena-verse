@@ -5,19 +5,10 @@ import React from 'react'
 import { Col, Container } from 'react-bootstrap'
 import { Zoom } from 'react-reveal'
 import PageFooter from './PageFooter'
-import mainBannerVideo from '../../../Assets/Videos/ArenaVerseBannerVideo.mp4'
 
 const MainBanner = () => {
     return (
         <div className='mainBanner position-relative'>
-            <video
-                autoPlay="true"
-                loop="true"
-                muted="true"
-                playsInline="true"
-                className='mainBannerVideo'
-                src={mainBannerVideo}
-                type="video/mp4" />
             <Container>
                 <Col lg={6} className='m-auto text-center mt-5 pt-5 mb-5 pb-5'>
                     <div className="mainBannerContent mainBannerContentZindex mt-5 pt-5 text-light mb-5">

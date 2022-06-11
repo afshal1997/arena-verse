@@ -4,7 +4,7 @@ body .WhitePaperBody {
 }
 
 .mainBanner {
-    /* background: url('../../../Assets/Whitepaper/mainBannerBg.jpg'); */
+    background: url('../../../Assets/Whitepaper/mainBannerBg.jpg');
     background-color: #000;
 }
 

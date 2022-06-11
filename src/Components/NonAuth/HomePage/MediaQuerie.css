@@ -36,6 +36,14 @@
         box-shadow: none !important;
         border: 2px solid #fafa !important;
     }
+
+    span#chartobject-1 {
+        margin-top: -150px !important;
+    }
+
+    .features {
+        margin-top: -190px;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 300px) {

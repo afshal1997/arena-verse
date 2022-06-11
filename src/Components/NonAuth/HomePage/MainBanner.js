@@ -5,7 +5,6 @@ import React from 'react'
 import { Col, Container } from 'react-bootstrap'
 import playIcon from '../../../Assets/ButtonIcons/playIcon.png'
 import playButton from '../../../Assets/ButtonIcons/playNowButton.png'
-import Zoom from 'react-reveal/Zoom';
 import mainBannerVideo from '../../../Assets/Videos/ArenaVerseHomeBannerVide.mp4'
 import ComingSoonPopup from '../../../UI/Modals/ComingSoonPopup'
 
